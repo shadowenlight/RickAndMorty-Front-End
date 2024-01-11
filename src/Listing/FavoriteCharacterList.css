@@ -1,0 +1,40 @@
+.character-item {
+    display: flex;
+    width: 40%;    
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+  }
+
+  .character-item .details{
+    font-weight: bold;
+  }
+  
+  .character-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left:28%;
+  }
+  
+  /* Style the overall character list container */
+  .character-list {
+    padding: 20px;
+  }
+
+  .characters{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+
+  .removeFavorite {
+    background-color: #f44336; /* Red color for "Remove from Favorites" button */
+    color: #fff; /* White text color */    
+    margin-left: 200px;
+  }

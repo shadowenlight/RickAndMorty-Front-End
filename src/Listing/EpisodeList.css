@@ -1,0 +1,58 @@
+.episode-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    width: 70%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    position: relative; /* Add relative positioning */
+  }
+
+  .character-item .details{
+    font-weight: bold;
+  }
+  
+  .episode-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .episode-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .episode-item ul {
+    list-style: none;
+  }
+
+  .pagination {
+    display: flex;
+    list-style: none;
+    align-self:center;
+    margin-top: 10px;
+  }
+
+  .pagination-button {
+    margin: 0 15px;
+  }
+
+  .pagination .pagination-button {
+    border-radius: 10px;
+    border-width: 1px;
+    text-decoration: none;
+    color: #007bff;
+    background-color: transparent;
+  }
+  
+  .pagination .pagination-button:hover {
+    font-weight: bold;
+  }
